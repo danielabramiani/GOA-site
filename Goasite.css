@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+}
+
+header {
+    background-color:  #092c0d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00980f; 
+}
+p{
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+img{
+    width: 25%;
+    border-radius: 20px;
+}
+.film-card {
+    width: 25%;
+    text-align: center;
+    background-color: #092c0d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+
+.film-card:hover {
+    transform: scale(1.05);
+}
+
+.film-card img {
+    width: 100%;
+    height: auto;
+}
+
+.film-card .film-info {
+    padding: 10px;
+}
+.ani{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.ani:hover {
+    color: black;
+    background-color: #00980f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
